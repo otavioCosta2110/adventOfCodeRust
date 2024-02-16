@@ -1,6 +1,5 @@
-pub fn puzzle_input() -> &'static str{
-    r#"
-    51591twosix4dhsxvgghxq
+pub fn puzzle_input() -> String{
+    "51591twosix4dhsxvgghxq
     425nine
     llvmhjtr8nbbhrfone
     lpbjvpbtdfvtxtdvkpjs7qrvddkzmjtlqtg
@@ -999,7 +998,6 @@ pub fn puzzle_input() -> &'static str{
     gbseven9five6
     nine2hdltdjdp73phzrjnonegx
     3two3eightjszbfourkxbh5twonepr
-    5cfprzgxtf3465five
-    "#
+    5cfprzgxtf3465five".to_string()
 }
 
